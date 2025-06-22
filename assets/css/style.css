@@ -1,0 +1,62 @@
+a
+{
+    text-decoration: none;
+}
+.language_menu a {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 14px;
+    text-transform: capitalize;
+    color: #666;
+    padding: 2px 8px;
+    height: 22px;
+}
+.topcis_menu a
+{
+    font-size: 13px;
+    font-weight: 600;
+}
+.topcis_menu a:hover
+{
+    color:rgb(19, 118, 232)!important;
+    cursor: pointer;
+}
+
+/* For Chrome, Safari, Edge */
+.scrollbar_container::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+.scrollbar_container {
+  scrollbar-width: none;       /* hides scrollbar */
+  overflow-y: scroll;          /* keeps vertical scroll working */
+}
+
+/* For IE/Edge legacy */
+.scrollbar_container {
+  -ms-overflow-style: none;    /* hides scrollbar */
+}
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+
+.search_btn
+{
+    font-size: 18px;
+}
+
+.search_btn:focus,
+.search_btn:active,
+.search_btn:hover {
+  border: none;
+  outline: none;
+  box-shadow: none; /* Optional: removes Bootstrap-style focus glow */
+}
+#search_box_modal
+{
+    height: 100%!important;
+}
