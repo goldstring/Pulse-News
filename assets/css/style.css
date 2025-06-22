@@ -118,3 +118,25 @@ a
       object-fit: contain!important;
     }
   }
+
+  @media (min-width: 577px) and (max-width: 768px) {
+  #newListFilterContainer .card-body {
+    padding: 12px 8px;
+  }
+
+  #newListFilterContainer .card-title {
+    font-size: 16px !important;
+  }
+
+  .card.flex-row {
+    flex-direction: row !important;
+  }
+
+  .card.flex-row img {
+    width: 140px !important;
+    height: auto;
+    object-fit: cover !important;
+  }
+}
+
+
