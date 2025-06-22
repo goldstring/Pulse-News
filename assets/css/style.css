@@ -60,3 +60,42 @@ a
 {
     height: 100%!important;
 }
+
+.has-submenu >.cat-link.d-block
+{
+  font-weight: 600;
+  color:#333;
+}
+.cat-link.d-block::after{
+  content: '›'; /* Unicode right arrow is more visually appealing than '>' */
+  font-size: 1rem;
+  margin-left: 8px;
+  font-weight: 600;
+  color:#333; /* Optional: subtle gray */
+}
+.submenu li a
+{ 
+  color:#333;
+  font-weight: 500!important;
+  margin-bottom: 10px;
+}
+
+.col > .cat-link.d-block{
+  font-weight: 600;
+  color: #000;
+  font-size: 15px;
+}
+
+/* .submenu li
+{
+  font-weight: 500!important;
+  margin-bottom: 10px;
+}
+.col > .cat-link.d-block{
+  font-weight: 600;
+  color: #000;
+  font-size: 15px;
+} */
+#newListFilterContainer li{
+  : 10px;
+}

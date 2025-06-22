@@ -646,7 +646,7 @@
               </div>
 
               <!-- Search -->
-              <div class="search-box flex-grow-1 mx-4">
+              <div class="search-box d-none d-sm-block mx-4 flex-grow-1">
                 <form action="#" method="post" id="headerSearch" class="d-flex">
                   <input
                     type="text"
@@ -678,15 +678,34 @@
               </div>
             </div>
 
+            <div class="search-box d-block d-sm-none flex-grow-1">
+              <form action="#" method="post" id="headerSearch" class="d-flex">
+                <input
+                  type="text"
+                  class="form-control me-2"
+                  placeholder="Search .."
+                  id="searchText2"
+                  name="searchText2"
+                  autocomplete="off"
+                />
+                <button
+                  type="submit"
+                  id="clickSearchValue"
+                  class="btn btn-primary"
+                  aria-label="search"
+                  disabled
+                >
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </form>
+            </div>
+
             <!-- Navigation -->
             <!-- Navigation -->
             <ul
               class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-3 list-unstyled mt-3"
+              id="menu_list"
             >
-              <li class="col">
-                <a class="cat-link d-block" href="#">ताज्या बातम्या</a>
-              </li>
-
               <li class="col has-submenu">
                 <a class="cat-link d-block" href="#" title="राज्य"
                   >महाराष्ट्र</a
@@ -720,6 +739,9 @@
                   <li><a href="#">सायबर क्राईम</a></li>
                   <li><a href="#">नाशिक क्राईम</a></li>
                 </ul>
+              </li>
+              <li class="col">
+                <a class="cat-link d-block" href="#">ताज्या बातम्या</a>
               </li>
 
               <li class="col">
@@ -778,9 +800,174 @@
                 <a class="cat-link d-block" href="#">बजेट 2025</a>
               </li>
             </ul>
+
+            <div
+              class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 mt-2"
+              style="display: none"
+              id="newListFilterContainer"
+            >
+              <!-- Card Item -->
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="assets/images/blogs/blog_1.webp"
+                    class="card-img-top"
+                    alt="Card image cap"
+                  />
+                  <div
+                    class="card-body d-flex flex-column justify-content-between"
+                  >
+                    <h5 class="card-title">
+                      इराण-इस्रायल युद्धाचा भारताला दणका, 'या' वस्तूंच्या किमती
+                      वाढणार
+                    </h5>
+                    <a href="#" class="text-danger mt-auto">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="assets/images/blogs/blog_2.jpg"
+                    class="card-img-top"
+                    alt="Card image cap"
+                  />
+                  <div
+                    class="card-body d-flex flex-column justify-content-between"
+                  >
+                    <h5 class="card-title">
+                      इराण-इस्रायल युद्धाचा भारताला दणका, 'या' वस्तूंच्या किमती
+                      वाढणार
+                    </h5>
+                    <a href="#" class="text-danger mt-auto">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="assets/images/blogs/blog_3.webp"
+                    class="card-img-top"
+                    alt="Card image cap"
+                  />
+                  <div
+                    class="card-body d-flex flex-column justify-content-between"
+                  >
+                    <h5 class="card-title">
+                      इराण-इस्रायल युद्धाचा भारताला दणका, 'या' वस्तूंच्या किमती
+                      वाढणार
+                    </h5>
+                    <a href="#" class="text-danger mt-auto">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="assets/images/blogs/blog_4.jpg"
+                    class="card-img-top"
+                    alt="Card image cap"
+                  />
+                  <div
+                    class="card-body d-flex flex-column justify-content-between"
+                  >
+                    <h5 class="card-title">
+                      इराण-इस्रायल युद्धाचा भारताला दणका, 'या' वस्तूंच्या किमती
+                      वाढणार
+                    </h5>
+                    <a href="#" class="text-danger mt-auto">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="assets/images/blogs/blog_5.jpg"
+                    class="card-img-top"
+                    alt="Card image cap"
+                  />
+                  <div
+                    class="card-body d-flex flex-column justify-content-between"
+                  >
+                    <h5 class="card-title">
+                      इराण-इस्रायल युद्धाचा भारताला दणका, 'या' वस्तूंच्या किमती
+                      वाढणार
+                    </h5>
+                    <a href="#" class="text-danger mt-auto">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="assets/images/blogs/blog_6.jpg"
+                    class="card-img-top"
+                    alt="Card image cap"
+                  />
+                  <div
+                    class="card-body d-flex flex-column justify-content-between"
+                  >
+                    <h5 class="card-title">
+                      इराण-इस्रायल युद्धाचा भारताला दणका, 'या' वस्तूंच्या किमती
+                      वाढणार
+                    </h5>
+                    <a href="#" class="text-danger mt-auto">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="assets/images/blogs/blog_7.jpg"
+                    class="card-img-top"
+                    alt="Card image cap"
+                  />
+                  <div
+                    class="card-body d-flex flex-column justify-content-between"
+                  >
+                    <h5 class="card-title">
+                      इराण-इस्रायल युद्धाचा भारताला दणका, 'या' वस्तूंच्या किमती
+                      वाढणार
+                    </h5>
+                    <a href="#" class="text-danger mt-auto">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="assets/images/blogs/blog_8.jpg"
+                    class="card-img-top"
+                    alt="Card image cap"
+                  />
+                  <div
+                    class="card-body d-flex flex-column justify-content-between"
+                  >
+                    <h5 class="card-title">
+                      इराण-इस्रायल युद्धाचा भारताला दणका, 'या' वस्तूंच्या किमती
+                      वाढणार
+                    </h5>
+                    <a href="#" class="text-danger mt-auto">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Repeat the same for other cards -->
+              <!-- Just duplicate the above div.col as needed -->
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
