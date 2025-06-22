@@ -96,6 +96,25 @@ a
   color: #000;
   font-size: 15px;
 } */
-#newListFilterContainer li{
-  : 10px;
-}
+@media (max-width: 576px) {
+
+  #newListFilterContainer .card-body
+  {
+    padding:8px 4px;
+  }
+
+    #newListFilterContainer .card-title
+    {
+      font-size: 14px!important;
+    }
+
+  .card.flex-row {
+      flex-direction: row !important;
+    }
+
+    .card.flex-row img {
+      width: 100px !important;
+      height: auto;
+      object-fit: contain!important;
+    }
+  }
