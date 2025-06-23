@@ -125,7 +125,7 @@ a
   }
 
   #newListFilterContainer .card-title {
-    font-size: 16px !important;
+    font-size: 12px !important;
   }
 
   .card.flex-row {
@@ -133,10 +133,34 @@ a
   }
 
   .card.flex-row img {
-    width: 140px !important;
+    width: 100px !important;
     height: auto;
-    object-fit: cover !important;
+    object-fit: contain !important;
+    padding-right: 6px;
   }
 }
 
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Styles for md screens */
+  #newListFilterContainer .card-body {
+    padding: 12px 8px;
+  }
+
+  #newListFilterContainer .card-title {
+    font-size: 14px !important;
+  }
+
+  .card.flex-row {
+    flex-direction: row !important;
+  }
+
+  .card.flex-row img {
+    width: 130px !important;
+    height: auto;
+    object-fit: contain !important;
+    padding-right: 6px;
+  }
+
+}
 
